@@ -1,3 +1,7 @@
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+
 .dg-profile {
 	width: 50rem;
 	height: 12rem;
@@ -5,4 +9,8 @@
 
 #dg-cabecera  p {
 	width: 95%;
+}
+
+.progress {
+	height: 0.6rem;
 }
