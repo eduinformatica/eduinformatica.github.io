@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	font-weight: 300;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+.contenedor {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login__container {
+	background-color: #DFDFDF;
+	width: 300px;
+	border-top: .3rem solid #101010;
+	box-sizing: border-box;
+	padding: 1.5rem 0;
+	box-shadow: 0 0 .5rem #1F2430;
+	border-radius: .3rem;
+}
+
+.login__top {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.login__title {
+	color: #2E2E2E;
+}
+
+.login__form {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 2rem 0;
+}
+
+#inpUsuario, #inpClave {
+	height: .3rem;
+	margin: .3rem 0;
+	padding: 0.8rem;
+	transition: all .7s;
+	border: none; 
+	/*opcional*/
+	/*color: #207698;*/
+	color: #154E65;
+}
+
+#inpUsuario {
+	border-color: #207698;
+}
+
+.btn__submit {
+	height: 2rem;
+	border-radius: .5rem;
+	border: none;
+	cursor: pointer;
+	background-color: #207698;
+	color: #fff;
+	padding: .5rem;
+	margin: .5rem 0 .3rem;
+}
+
+.btn__submit:hover {
+	background-color: #0A2732;
+	transition: all .5s;
+}
+
+.form__recover {
+	color: #1F2430;
+	text-decoration: none;
+	text-align: center;
+	font-size: 13px;
+	cursor: pointer;
+	margin: .5rem 0 0 0;
+	cursor: pointer;
+}
+
+.form__recover:hover {
+	color: #207698;
+	transition: all .5s;
+}
